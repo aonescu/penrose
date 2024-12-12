@@ -1,5 +1,4 @@
 # Penrose
-
 Penrose is an innovative project focused on adtech, homomorphic encryption, and Avalanche Ethereum. This README provides an overview of the project, installation instructions, and usage examples.
 
 ## Table of Contents
@@ -10,12 +9,12 @@ Penrose is an innovative project focused on adtech, homomorphic encryption, and 
 
 ## Installation
 
-To install Penrose, clone the repository and install the dependencies:
+To install Penrose, clone the repository and build the project:
 
 ```bash
 git clone https://github.com/yourusername/penrose.git
 cd penrose
-npm install
+go build
 ```
 
 ## Usage
@@ -23,10 +22,10 @@ npm install
 To start using Penrose, run the following command:
 
 ```bash
-npm start
+./penrose
 ```
 
-This will start the application and open it in your default web browser. You can then create and visualize your diagrams.
+This will start the application. You can then create and visualize your diagrams.
 
 ## Contributing
 
